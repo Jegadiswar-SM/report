@@ -1,0 +1,14 @@
+Saved source: results/physical/ams_oa_source_flow_20261013/xrun_verified.log
+Tool: Xcelium 22.09-s003; bound OA Spectre hierarchy adc_analog_channel_bank3_v1
+
+Relevant extracted lines:
+155:            bsim3v3 230
+309: spectre completes with 0 errors, 5 warnings, and 4 notices.
+
+The same run generated the AMS port-bind file:
+results/physical/ams_oa_source_flow_20261013/xcelium_verified.d/AMSD/portbind_files/adc_analog_channel_bank3_v1.pb
+
+For the later positive-input feedback transaction, source:
+results/physical/ams_adc_direction_20261013/xrun_feedback.log
+
+That executed run reports 230 BSIM devices, five AMS_ANALOG_COMPARATOR_WAVE strobe records, and a final marker with cdac=19f, raw=255, corrected=255, valid=1. Its saved Spectre log reports completion with zero errors. Fixed thresholds and different golden/physical decision sequence remain limitations.

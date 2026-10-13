@@ -1,0 +1,3 @@
+# GUI screenshot availability
+
+No authentic CAD GUI screenshot was captured. This execution shell has `DISPLAY=localhost:20.0`, but `xdpyinfo` reports `unable to open display`; the available Virtuoso process belongs to the same user but is not attached to this inaccessible session. No process was attached to, changed or terminated. Consequently `screenshots/` and `schematics/` contain no fabricated screenshots. OA schematic databases remain in `oa/PULSAR4X_FB_20261010/`; open them in the authorized desktop using the procedure in the package README. Exported figures under `waveforms/` are generated from saved simulator vectors and are not GUI screenshots.

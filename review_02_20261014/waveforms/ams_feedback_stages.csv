@@ -1,0 +1,16 @@
+input_case,time_s,stage,thermometer,pair_valid,dac_p_V,cmp0p_V,cmp0n_V,cmp1p_V,cmp1n_V,cmp2p_V,cmp2n_V,actual_code,golden_code,source_log
+−0.6 V,5.7e-08,0,000,1,0.811767733,1.8,0.0,1.8,0.0,1.8,0.0,0,0,results/raw/first_integrated_adc_capture/cases/negative_fullscale/xrun_feedback.log
+−0.6 V,7.7e-08,1,000,1,0.811823701,1.8,0.0,1.8,0.0,1.8,0.0,0,0,results/raw/first_integrated_adc_capture/cases/negative_fullscale/xrun_feedback.log
+−0.6 V,9.7e-08,2,000,1,0.811823702,1.8,0.0,1.8,0.0,1.8,0.0,0,0,results/raw/first_integrated_adc_capture/cases/negative_fullscale/xrun_feedback.log
+−0.6 V,1.17e-07,3,000,1,0.811823702,1.8,0.0,1.8,0.0,1.8,0.0,0,0,results/raw/first_integrated_adc_capture/cases/negative_fullscale/xrun_feedback.log
+−0.6 V,1.37e-07,4,000,1,0.811823702,1.8,0.0,1.8,0.0,1.8,0.0,0,0,results/raw/first_integrated_adc_capture/cases/negative_fullscale/xrun_feedback.log
+0 V,5.7e-08,0,111,1,1.1171571,0.0,1.8,0.0,1.8,0.0,1.8,172,128,results/raw/first_integrated_adc_capture/cases/zero/xrun_feedback.log
+0 V,7.7e-08,1,000,1,0.842970605,1.8,0.0,1.8,0.0,1.8,0.0,172,128,results/raw/first_integrated_adc_capture/cases/zero/xrun_feedback.log
+0 V,9.7e-08,2,000,1,0.842970305,1.8,0.0,1.8,0.0,1.8,0.0,172,128,results/raw/first_integrated_adc_capture/cases/zero/xrun_feedback.log
+0 V,1.17e-07,3,000,1,0.842970317,1.8,0.0,1.8,0.0,1.8,0.0,172,128,results/raw/first_integrated_adc_capture/cases/zero/xrun_feedback.log
+0 V,1.37e-07,4,000,1,0.842970331,1.8,0.0,1.8,0.0,1.8,0.0,172,128,results/raw/first_integrated_adc_capture/cases/zero/xrun_feedback.log
++0.6 V,5.7e-08,0,111,1,1.42209494,0.0,1.8,0.0,1.8,0.0,1.8,255,255,results/physical/ams_adc_direction_20261013/xrun_feedback.log
++0.6 V,7.7e-08,1,111,1,1.14813034,0.0,1.8,0.0,1.8,0.0,1.8,255,255,results/physical/ams_adc_direction_20261013/xrun_feedback.log
++0.6 V,9.7e-08,2,011,1,1.0452865,0.0,1.8,0.0,1.8,1.8,0.0,255,255,results/physical/ams_adc_direction_20261013/xrun_feedback.log
++0.6 V,1.17e-07,3,001,1,1.02242859,0.0,1.8,1.8,0.0,1.8,0.0,255,255,results/physical/ams_adc_direction_20261013/xrun_feedback.log
++0.6 V,1.37e-07,4,001,1,1.01957132,0.0,1.8,1.8,0.0,1.8,0.0,255,255,results/physical/ams_adc_direction_20261013/xrun_feedback.log
